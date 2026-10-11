@@ -219,3 +219,7 @@ a.cell:hover { background: var(--card-bg, #edf4ff); border-color: var(--card-acc
 .team-photo { width: 100%; max-width: 640px; margin: 0 auto 2rem; overflow: hidden; border: 1px solid var(--line); border-radius: 16px; background: white; box-shadow: 0 5px 18px #001a3308; }
 .team-photo img { display: block; width: 100%; height: auto; }
 .team-photo figcaption { padding: 1rem 1.25rem; color: var(--ink-2); font-size: .9rem; text-align: center; }
+
+.download-links { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
+
+.download-photo { display: block; width: 100%; height: clamp(160px, 22vw, 240px); object-fit: cover; border-radius: 10px; margin-bottom: 1.25rem; }
