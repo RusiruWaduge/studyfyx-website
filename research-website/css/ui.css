@@ -223,3 +223,8 @@ a.cell:hover { background: var(--card-bg, #edf4ff); border-color: var(--card-acc
 .download-links { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
 
 .download-photo { display: block; width: 100%; height: clamp(160px, 22vw, 240px); object-fit: cover; border-radius: 10px; margin-bottom: 1.25rem; }
+
+.thesis-downloads { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.thesis-downloads .btn { white-space: normal; text-align: center; }
+#thesis { scroll-margin-top: 100px; }
+@media (max-width: 560px) { .thesis-downloads { grid-template-columns: 1fr; } }
