@@ -3,8 +3,8 @@
  * Lightweight vanilla JavaScript, no external dependencies.
  */
 
-// Shared Google Drive folder for research documents and presentations.
-const RESEARCH_FOLDER_URL = "https://drive.google.com/drive/folders/1j5qwz5YjAbGDTKUu_reXCLSNUxUxt5uj?usp=drive_link";
+// Local research document directory.
+const RESEARCH_FOLDER_URL = "documents.html#thesis-downloads";
 
 document.documentElement.classList.add('js');
 let modalTrigger = null;
